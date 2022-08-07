@@ -40,7 +40,7 @@ struct ContentView: View {
                     }
                 HesaplaView()
                     .tabItem{
-                        Image(systemName: "pencil.tip.crop.circle")
+                        Image(systemName: "turkishlirasign.circle")
                         Text("Hesapla")
                     }
                 HaberlerView()
