@@ -9,6 +9,8 @@ import SwiftUI
 
 struct SirketDetay: View {
     
+    static let mor = Color("mor")
+    
     var sirket: Sirketler
     
     var body: some View {
@@ -33,8 +35,9 @@ struct SirketDetay: View {
                 Text(sirket.baslik)
                     .font(.title3)
                     .lineLimit(2)
-                    .minimumScaleFactor(0.5) // Metin arttıkça yazı tipini küçültüyor.
-                    .padding(.horizontal, 5)
+                    .minimumScaleFactor(0.9) // Metin arttıkça yazı tipini küçültüyor.
+                    
+                
                 Text("Halka Arz Bilgileri")
                     .font(.system(size: 12))
                     .foregroundColor(.secondary)
@@ -167,8 +170,8 @@ struct SirketDetay: View {
                 }
                 }
             }
+        }
     }
-}
 }
 
 struct SirketDetay_Previews: PreviewProvider {
