@@ -7,11 +7,8 @@
 
 import SwiftUI
 
-
 struct sirketSatiri: View{
-    
     var sirketler: [Sirketler] = SirketListesi.hepsi
-    
     var body: some View {
         NavigationView{
             
@@ -24,12 +21,10 @@ struct sirketSatiri: View{
                             .frame(width: 60, height: 60, alignment: .leading)
                             .cornerRadius(4)
                             .padding(.vertical, 3)
-                        
                         VStack(alignment:.leading, spacing: 3){
                             Text(sirket.bistKodu)
                                 .fontWeight(.bold)
                                 .font(.subheadline)
-                            
                             Text(sirket.baslik)
                                 .font(.subheadline)
                                 .lineLimit(2)
@@ -39,17 +34,18 @@ struct sirketSatiri: View{
                                 .foregroundColor(.secondary)
                         }
                     }
-                }
+                } .listStyle(.plain)
+                    .listRowBackground(Color("mor"))
             }.navigationTitle("Halka Arz")
+            .background(Color("mor"))
+            .foregroundColor(Color.white)
         }
     }
 }
 
-
 struct SirketListele: View {
     var body: some View {
         sirketSatiri()
-        
     }
 }
 struct SirketListele_Previews: PreviewProvider {

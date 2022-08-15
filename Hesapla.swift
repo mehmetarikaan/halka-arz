@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Foundation
 
 public extension UIApplication {
     
@@ -20,47 +21,50 @@ public extension UIApplication {
     }
 }
 
+
 struct Hesapla: View {
     
     @State var adet = Double()
-    @State var guncel = ""
     @State var arz = Double()
     @State var getiri = 0
+    @State var gunSonu = 0.0
     
-    let tavanlar: [Int: Double] = [1: 0.1, 2:0.2, 3:0.3, 4:0.4, 5:0.5, 6:0.6, 7:0.7, 8: 0.8, 9: 0.9, 10: 1]
+    var anaPara: Double{
+        let top = Double(adet * arz)
+        return top
+    }
+    
+    let tavanlar: [Int: Double] = [1: 0.1, 2:0.21, 3:0.331, 4:0.464, 5:0.610, 6:0.771, 7:0.948, 8: 1.14, 9: 1.35, 10: 1.59]
     @State var secilen = 1
     
+
     // yatırılan toplam para
     var yatirilanPara: Double{
         let top = Double(adet * arz)
         return top
     }
     
-    // kazanılan para
+    // tüm kazanılan para
     var toplam: Double{
         let son = Double(yatirilanPara * Double(tavanlar[secilen]!))
         return son
     }
     
+    // hesaptaki tüm para
     var tumPara: Double{
         let all = Double(toplam + yatirilanPara)
         return all
     }
     
-    
-    
-    
     var body: some View {
+        
         NavigationView{
             
-            
             ScrollView{
-                
                 VStack{
                     VStack{
                         
                         VStack(alignment: .leading){
-                            
                             
                             Text("Halka Arz Fiyatı")
                                 .foregroundColor(.gray)
@@ -141,9 +145,12 @@ struct Hesapla: View {
                         }
                     }.padding()
                     
+                    
                 }.navigationTitle("Kazanç Hesapla")
+                .background(Color("mor"))
+                .foregroundColor(Color.white)
                 
-            }
+        }
         }
         
     }

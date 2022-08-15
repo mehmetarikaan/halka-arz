@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+
 struct Sirketler: Identifiable{
     let id = UUID()
     let logo: String
@@ -25,6 +26,7 @@ struct Sirketler: Identifiable{
 }
 
 struct SirketListesi{
+    
     static let hepsi = [
         
         
@@ -47,3 +49,5 @@ struct SirketListesi{
         
     ]
 }
+
+

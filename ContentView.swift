@@ -10,23 +10,22 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        SirketListele()
+        SirketListele().background(Color("mor"))
     }
 }
 
 struct HaberlerView: View {
     var body: some View {
-        Haberler()
+        Haberler().background(Color("mor"))
     }
 }
 
 struct HesaplaView: View {
     var body: some View {
         
-        Hesapla()
+        Hesapla().background(Color("mor"))
     }
 }
-
 
 struct ContentView: View {
     var body: some View {
@@ -48,7 +47,7 @@ struct ContentView: View {
                         Image(systemName: "newspaper.circle")
                         Text("Haberler")
                     }
-            }
+            }.accentColor(.white)
         }
     }
 }
