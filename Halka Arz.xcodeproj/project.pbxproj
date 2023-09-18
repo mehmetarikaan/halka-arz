@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B77D2EC428C33D84002DFB4B /* Halka_ArzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D2EC328C33D84002DFB4B /* Halka_ArzApp.swift */; };
+		B77D2EC628C33D84002DFB4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D2EC528C33D84002DFB4B /* ContentView.swift */; };
+		B77D2EC828C33D85002DFB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77D2EC728C33D85002DFB4B /* Assets.xcassets */; };
+		B77D2ECB28C33D85002DFB4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77D2ECA28C33D85002DFB4B /* Preview Assets.xcassets */; };
+		B77D2ED228C33E27002DFB4B /* Haberler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D2ED128C33E27002DFB4B /* Haberler.swift */; };
+		B77D2ED428C33E51002DFB4B /* HaberlerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D2ED328C33E51002DFB4B /* HaberlerModel.swift */; };
+		B77D2ED628C33E7A002DFB4B /* Hesapla.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D2ED528C33E7A002DFB4B /* Hesapla.swift */; };
+		B77D2ED828C33EB8002DFB4B /* SirketDetay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D2ED728C33EB8002DFB4B /* SirketDetay.swift */; };
+		B77D2EDA28C33EDC002DFB4B /* Sirketler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D2ED928C33EDC002DFB4B /* Sirketler.swift */; };
+		B77D2EDC28C33EF7002DFB4B /* SirketListele.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77D2EDB28C33EF7002DFB4B /* SirketListele.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B7693E5328C3601400F47499 /* Halka-Arz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Halka-Arz-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B77D2EC028C33D84002DFB4B /* Halka Arz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Halka Arz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B77D2EC328C33D84002DFB4B /* Halka_ArzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Halka_ArzApp.swift; sourceTree = "<group>"; };
+		B77D2EC528C33D84002DFB4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B77D2EC728C33D85002DFB4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B77D2ECA28C33D85002DFB4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B77D2ED128C33E27002DFB4B /* Haberler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haberler.swift; sourceTree = "<group>"; };
+		B77D2ED328C33E51002DFB4B /* HaberlerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaberlerModel.swift; sourceTree = "<group>"; };
+		B77D2ED528C33E7A002DFB4B /* Hesapla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hesapla.swift; sourceTree = "<group>"; };
+		B77D2ED728C33EB8002DFB4B /* SirketDetay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirketDetay.swift; sourceTree = "<group>"; };
+		B77D2ED928C33EDC002DFB4B /* Sirketler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sirketler.swift; sourceTree = "<group>"; };
+		B77D2EDB28C33EF7002DFB4B /* SirketListele.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SirketListele.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B77D2EBD28C33D84002DFB4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B77D2EB728C33D84002DFB4B = {
+			isa = PBXGroup;
+			children = (
+				B77D2EC228C33D84002DFB4B /* Halka Arz */,
+				B77D2EC128C33D84002DFB4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B77D2EC128C33D84002DFB4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B77D2EC028C33D84002DFB4B /* Halka Arz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B77D2EC228C33D84002DFB4B /* Halka Arz */ = {
+			isa = PBXGroup;
+			children = (
+				B7693E5328C3601400F47499 /* Halka-Arz-Info.plist */,
+				B77D2EC328C33D84002DFB4B /* Halka_ArzApp.swift */,
+				B77D2EC528C33D84002DFB4B /* ContentView.swift */,
+				B77D2ED128C33E27002DFB4B /* Haberler.swift */,
+				B77D2ED328C33E51002DFB4B /* HaberlerModel.swift */,
+				B77D2ED528C33E7A002DFB4B /* Hesapla.swift */,
+				B77D2ED928C33EDC002DFB4B /* Sirketler.swift */,
+				B77D2EDB28C33EF7002DFB4B /* SirketListele.swift */,
+				B77D2ED728C33EB8002DFB4B /* SirketDetay.swift */,
+				B77D2EC728C33D85002DFB4B /* Assets.xcassets */,
+				B77D2EC928C33D85002DFB4B /* Preview Content */,
+			);
+			path = "Halka Arz";
+			sourceTree = "<group>";
+		};
+		B77D2EC928C33D85002DFB4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B77D2ECA28C33D85002DFB4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B77D2EBF28C33D84002DFB4B /* Halka Arz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B77D2ECE28C33D85002DFB4B /* Build configuration list for PBXNativeTarget "Halka Arz" */;
+			buildPhases = (
+				B77D2EBC28C33D84002DFB4B /* Sources */,
+				B77D2EBD28C33D84002DFB4B /* Frameworks */,
+				B77D2EBE28C33D84002DFB4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Halka Arz";
+			productName = "Halka Arz";
+			productReference = B77D2EC028C33D84002DFB4B /* Halka Arz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B77D2EB828C33D84002DFB4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B77D2EBF28C33D84002DFB4B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B77D2EBB28C33D84002DFB4B /* Build configuration list for PBXProject "Halka Arz" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B77D2EB728C33D84002DFB4B;
+			productRefGroup = B77D2EC128C33D84002DFB4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B77D2EBF28C33D84002DFB4B /* Halka Arz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B77D2EBE28C33D84002DFB4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77D2ECB28C33D85002DFB4B /* Preview Assets.xcassets in Resources */,
+				B77D2EC828C33D85002DFB4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B77D2EBC28C33D84002DFB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77D2ED428C33E51002DFB4B /* HaberlerModel.swift in Sources */,
+				B77D2EDA28C33EDC002DFB4B /* Sirketler.swift in Sources */,
+				B77D2EDC28C33EF7002DFB4B /* SirketListele.swift in Sources */,
+				B77D2ED828C33EB8002DFB4B /* SirketDetay.swift in Sources */,
+				B77D2EC628C33D84002DFB4B /* ContentView.swift in Sources */,
+				B77D2EC428C33D84002DFB4B /* Halka_ArzApp.swift in Sources */,
+				B77D2ED628C33E7A002DFB4B /* Hesapla.swift in Sources */,
+				B77D2ED228C33E27002DFB4B /* Haberler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B77D2ECC28C33D85002DFB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B77D2ECD28C33D85002DFB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B77D2ECF28C33D85002DFB4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Halka Arz/Preview Content\"";
+				DEVELOPMENT_TEAM = Y37UHY4HLZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Halka-Arz-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehmetarikan.Halka-Arz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B77D2ED028C33D85002DFB4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Halka Arz/Preview Content\"";
+				DEVELOPMENT_TEAM = Y37UHY4HLZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Halka-Arz-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mehmetarikan.Halka-Arz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B77D2EBB28C33D84002DFB4B /* Build configuration list for PBXProject "Halka Arz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77D2ECC28C33D85002DFB4B /* Debug */,
+				B77D2ECD28C33D85002DFB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B77D2ECE28C33D85002DFB4B /* Build configuration list for PBXNativeTarget "Halka Arz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B77D2ECF28C33D85002DFB4B /* Debug */,
+				B77D2ED028C33D85002DFB4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B77D2EB828C33D84002DFB4B /* Project object */;
+}

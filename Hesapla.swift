@@ -138,17 +138,17 @@ struct Hesapla: View {
                             Text("Toplam")
                                 .fontWeight(.light)
                                 .font(.subheadline)
+                                .preferredColorScheme(.dark)
                             Text("\(tumPara, specifier: "%.2f")₺")
                                 .bold()
                                 .font(.title2)
                             
                         }
                     }.padding()
-                    
-                    
                 }.navigationTitle("Kazanç Hesapla")
-                .background(Color("mor"))
                 .foregroundColor(Color.white)
+                .background(Color("mor"))
+                
                 
         }
         }

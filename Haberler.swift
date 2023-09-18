@@ -29,7 +29,7 @@ struct haberSatiri: View{
             }
             .navigationTitle("Haberler")
                 .listStyle(.sidebar)
-        }
+        }.preferredColorScheme(.dark)
     }
 }
 

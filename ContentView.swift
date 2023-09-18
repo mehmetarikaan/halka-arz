@@ -11,6 +11,7 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         SirketListele().background(Color("mor"))
+            .preferredColorScheme(.dark)
     }
 }
 
@@ -24,6 +25,7 @@ struct HesaplaView: View {
     var body: some View {
         
         Hesapla().background(Color("mor"))
+        
     }
 }
 
